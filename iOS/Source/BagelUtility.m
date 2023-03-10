@@ -19,6 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+@import UIKit;
 #import "BagelUtility.h"
 
 @implementation BagelUtility
@@ -40,7 +41,7 @@
 
 + (NSString*)deviceName
 {
-    return [UIDevice currentDevice].name;
+  return [UIDevice currentDevice].name;
 }
 
 + (NSString*)deviceDescription
@@ -50,7 +51,6 @@
     information = [UIDevice currentDevice].model;
     information = [NSString stringWithFormat:@"%@ %@", information, [UIDevice currentDevice].systemName];
     information = [NSString stringWithFormat:@"%@ %@", information, [UIDevice currentDevice].systemVersion];
-
     return information;
 }
 
