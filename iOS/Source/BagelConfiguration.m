@@ -20,6 +20,10 @@
 // THE SOFTWARE.
 
 #import "BagelConfiguration.h"
+#import "BagelProjectModel.h"
+#import "BagelDeviceModel.h"
+#import "BagelUtility.h"
+
 
 static BagelConfiguration* defaultConfiguration;
 
